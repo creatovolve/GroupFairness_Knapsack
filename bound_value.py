@@ -14,7 +14,7 @@ modified to include appropriate pointers in DP tables.
 
 
 variable notations in the code are as below
-l : number of categories in the code
+l : number of categories 
 n : number of items in each category
 epsilon : Input parameter indicating approximation factor and fairness violation
 v_i : Upper bound of value in each category
@@ -128,8 +128,7 @@ def combine_bundles_parallel(X_prev,X_cur,deps,X_len,X_prev_height):
 	for j_prime in range(X_len):
 			for j_dprime in range(X_len): 
 				if pow(1+deps,X_cur_thread_index) <= pow(1+deps,j_prime)+pow(1+deps,j_dprime):
-					X_cur_thread[X_cur_thread_index]=min(X_0[j_dprime]+X_1[j_prime],
-														X_cur_thread[X_cur_thread_index]);
+					X_cur_thread[X_cur_thread_index]=min(X_0[j_dprime]+X_1[j_prime], X_cur_thread[X_cur_thread_index]);
 
 			
 						
