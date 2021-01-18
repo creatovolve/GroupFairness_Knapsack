@@ -1,4 +1,4 @@
-This is the python implementation of the Algorithm 3 for the bound on value case in the paper "Group fairness in knapsack problems". The full version of the paper can be found [here](https://arxiv.org/pdf/2006.07832.pdf).
+This is the python implementation of the Algorithm 3 for the bound on value case in the paper "Group fairness for knapsack problems". The full version of the paper can be found [here](https://arxiv.org/pdf/2006.07832.pdf).
 
 # Command line arguments
 
